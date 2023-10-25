@@ -1,0 +1,108 @@
+.body{
+    margin: 180px 0;
+    overflow-x: hidden;
+}
+:root {
+    --darkpink: #b8a898;
+    --lightpink: #d2beb4;
+    --darkbrown: #000000;
+    --black: black;
+    --white: #ffffff;
+    --grey: #ADA9A9;
+}
+.title{
+    color: var(--darkbrown);
+    font-weight: 700;
+    text-align: center;
+}
+*{
+    font-size: 1.6rem;
+}
+.sosanpham{
+    color: var(--darkpink);
+    font-weight: bold;
+}
+.sotien{
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+.thanhtoan{
+    
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    margin-left: auto; 
+    border: 1px solid  var(--darkbrown);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+} 
+.thanhtoan:hover{
+    opacity: 0.8;
+    cursor: pointer;
+} 
+.thanhtoan:active{
+    opacity: 0.7;
+    background-color: #000;
+} 
+a{
+    text-decoration: none;
+}
+
+.thanhtoan a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.thanhtoan a:hover{
+    color: #000000;
+}
+.buy-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.order-infor{
+   
+    display: flex   ;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.bar{
+    width: 70px;
+    height: 0%;
+    margin:auto;
+    padding: auto;
+    background-color: #000000;
+    border: 2px solid #000000;
+
+} 
+.borderbox{
+    border: var(--grey) solid 1px;
+    
+}
+.row{
+    justify-content: center;
+}
+.cart__container{
+    margin-top: 40px;
+}
+.cart-info__container{
+    max-width: 450px;
+}
+@media (max-width: 1023px) and (min-width: 740px) {
+    .body{
+        margin-top: 128px;
+    }
+}
+
+/*mobile*/
+@media (max-width: 740px) {
+    .body{
+        margin-top: 128px;
+    }
+}
